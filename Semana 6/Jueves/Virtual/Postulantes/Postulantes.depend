@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1745502303 source:e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulante.cpp
+	<string>
+	<cstring>
+	"Postulante.h"
+
+1745501941 e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulante.h
+	<string>
+
+1745508318 source:e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\main.cpp
+	<iostream>
+	"Postulante.h"
+	"PostulanteArchivo.h"
+	"PostulanteIO.h"
+
+1745508424 e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulantearchivo.h
+	<string>
+	"Postulante.h"
+	"Archivo.h"
+
+1745508409 source:e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulantearchivo.cpp
+	<iostream>
+	"PostulanteArchivo.h"
+
+1745506727 e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulanteio.h
+	"Postulante.h"
+
+1745506841 source:e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\postulanteio.cpp
+	<iostream>
+	"PostulanteIO.h"
+
+1745508373 e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\archivo.h
+	<string>
+
+1745508416 source:e:\github\educacion\utn\programacion2-20251c-m\semana 6\jueves\virtual\postulantes\archivo.cpp
+	<iostream>
+	"Archivo.h"
+
