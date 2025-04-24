@@ -7,11 +7,11 @@
 # include<cstring>
 
 ///A partir de este fuente:
-    /// Generar un proyecto con un menï¿½ (Agregar registros, listar registros y salir)
-    ///Cada clase debe definirse en un .h distinto, y el desarrollo de sus mï¿½todos
+    /// Generar un proyecto con un menú (Agregar registros, listar registros y salir)
+    ///Cada clase debe definirse en un .h distinto, y el desarrollo de sus métodos
     ///hacerse en un cpp distinto
-///Completar los mï¿½todos faltantes de las clases
-///Ver lo que devuelven los mï¿½todos para dar los mensajes que correspondan
+///Completar los métodos faltantes de las clases
+///Ver lo que devuelven los métodos para dar los mensajes que correspondan
 
 
 using namespace std;
@@ -46,7 +46,7 @@ class Alumno{
     char nombre[30];
     char apellido[30];
     char email[30];
-    Fecha fechaNacimiento; ///COMPOSICIï¿½N-> USAMOS UN OBJETO DE UNA CLASE COMO PROPIEAD DE OTRA CLASES
+    Fecha fechaNacimiento; ///COMPOSICIÓN-> USAMOS UN OBJETO DE UNA CLASE COMO PROPIEAD DE OTRA CLASES
     int codigoCarrera;
  public:
     void Cargar(int leg);
@@ -98,7 +98,7 @@ public:
     int agregarRegistro();
     bool listarRegistros();
     int buscarAlumno(int leg);///busca si hay un alumno en el archivo con el legajo que recibe
-                              /// si lo encuentra devuelve la posiciï¿½n del registro en el archivo
+                              /// si lo encuentra devuelve la posición del registro en el archivo
                             ///si no le encuentra devuelve -1
 };
 
