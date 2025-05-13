@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1744805257 source:c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\fecha.cpp
+
+1744814543 source:c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\main.cpp
+	<iostream>
+	<cstring>
+	"Fecha.h"
+	"Alumno.h"
+	"ArchivoAlumnos.h"
+	"funglobales.h"
+
+1744805444 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\fecha.h
+
+1744813202 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\alumno.h
+
+1744812799 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\archivoalumnos.h
+
+1744813182 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\alumnos\funglobales.h
+
+1744805257 source:c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\fecha.cpp
+
+1746622655 source:c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\main.cpp
+	<iostream>
+	<cstring>
+	"Fecha.h"
+	"Alumno.h"
+	"ArchivoAlumnos.h"
+	"AlumnoNuevo.h"
+	"ArchivoAluNuevo.h"
+	"funglobales.h"
+	"menuAlumnos.h"
+	"menuMantenimiento.h"
+	"menuReportes.h"
+	"menuDocentes.h"
+
+1746621354 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\fecha.h
+
+1746620981 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\alumno.h
+
+1746621259 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\archivoalumnos.h
+
+1744813182 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\funglobales.h
+
+1746616701 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\menualumnos.h
+
+1746616721 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\menumantenimiento.h
+
+1746623543 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\menureportes.h
+
+1746617072 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\menudocentes.h
+
+1746623543 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\alumnonuevo.h
+
+1746623333 c:\users\danie\documents\curso ejemplos c\programacion ii\2025 c1 miércoles\07-05\alumnos\archivoalunuevo.h
+

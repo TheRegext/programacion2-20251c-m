@@ -7,11 +7,11 @@
 # include<cstring>
 
 ///A partir de este fuente:
-    /// Generar un proyecto con un menú (Agregar registros, listar registros y salir)
-    ///Cada clase debe definirse en un .h distinto, y el desarrollo de sus métodos
+    /// Generar un proyecto con un menï¿½ (Agregar registros, listar registros y salir)
+    ///Cada clase debe definirse en un .h distinto, y el desarrollo de sus mï¿½todos
     ///hacerse en un cpp distinto
-///Completar los métodos faltantes de las clases
-///Ver lo que devuelven los métodos para dar los mensajes que correspondan
+///Completar los mï¿½todos faltantes de las clases
+///Ver lo que devuelven los mï¿½todos para dar los mensajes que correspondan
 
 
 using namespace std;
@@ -46,12 +46,16 @@ class Alumno{
     char nombre[30];
     char apellido[30];
     char email[30];
-    Fecha fechaNacimiento; ///COMPOSICIÓN-> USAMOS UN OBJETO DE UNA CLASE COMO PROPIEAD DE OTRA CLASES
+    Fecha fechaNacimiento; ///COMPOSICIï¿½N-> USAMOS UN OBJETO DE UNA CLASE COMO PROPIEAD DE OTRA CLASES
     int codigoCarrera;
+    bool estado;
  public:
     void Cargar(int leg);
     void Mostrar();
     int getLegajo(){return legajo;}
+
+    void setLegajo(int _legajo){legajo=_legajo;}
+    void setEstado(bool _estado){estado=_estado;}
 };
 
 
@@ -74,6 +78,7 @@ void Alumno::Cargar(int leg=0){
     fechaNacimiento.Cargar();
     cout<<"CARRERA ";
     cin>>codigoCarrera;
+    estado=true;
 }
 
 void Alumno::Mostrar(){
@@ -98,8 +103,14 @@ public:
     int agregarRegistro();
     bool listarRegistros();
     int buscarAlumno(int leg);///busca si hay un alumno en el archivo con el legajo que recibe
-                              /// si lo encuentra devuelve la posición del registro en el archivo
+                              /// si lo encuentra devuelve la posiciï¿½n del registro en el archivo
                             ///si no le encuentra devuelve -1
+    
+    
+    Alumno leerRegistro(int pos);
+    bool bajaRegistro(int leg);
+    int contarRegistros();
+    bool modificarRegistro(Alumno reg, int pos);
 };
 
 int ArchivoAlumnos::buscarAlumno(int leg){///
@@ -166,6 +177,63 @@ bool ArchivoAlumnos::listarRegistros(){
 
     fclose(pAlumno);
     return true;
+}
+
+Alumno ArchivoAlumnos::leerRegistro(int pos){
+    FILE *pAlu;
+    Alumno reg;
+    reg.setLegajo(-1);
+    ///int pos=0;
+    pAlu=fopen(nombre, "rb");
+    if(pAlu==NULL){
+        cout<<"NO SE PUDO ABRIR EL ARCHIVO "<<endl;
+        return reg;
+    }
+    int cuanto=pos*sizeof(Alumno);
+    int desde_donde=0;
+    fseek(pAlu,cuanto, desde_donde);
+    fread(&reg, tamanioRegistro,1, pAlu);
+    fclose(pAlu);
+    return reg;
+}
+
+bool ArchivoAlumnos::bajaRegistro(int leg){
+    Alumno reg;
+    ArchivoAlumnos archi;
+    int pos=archi.buscarAlumno(leg);
+    if(pos==-1) return false;
+    ///leer el registro del archivo
+    reg=archi.leerRegistro(pos);///en reg tengo el registro a borrar
+    reg.setEstado(false);
+    return archi.modificarRegistro(reg, pos);
+}
+
+int ArchivoAlumnos::contarRegistros(){
+    FILE *pAlu;
+    Alumno reg;
+
+    pAlu=fopen(nombre, "rb");
+    if(pAlu==NULL){
+        cout<<"NO SE PUDO ABRIR EL ARCHIVO "<<endl;
+        return -1;
+    }
+    fseek(pAlu,0, 2);///se ubica el puntero al final del archivo
+    int cantByte=ftell(pAlu);///ftell() me dice cuï¿½ntos bytes hay desde el inicio hasta la posiciï¿½n actual
+    fclose(pAlu);
+    return cantByte/tamanioRegistro;///son los registros totales. No diferencia si estï¿½n o no borrados los registros
+}
+
+bool ArchivoAlumnos::modificarRegistro(Alumno reg, int pos){
+    FILE *pAlu;
+    pAlu=fopen(nombre, "rb+");
+    if(pAlu==NULL){
+        cout<<"NO SE PUDO ABRIR EL ARCHIVO "<<endl;
+        return false;
+    }
+    fseek(pAlu,pos*sizeof(Alumno), 0);///se ubica el puntero al principio del registro a modificar
+    bool modifico=fwrite(&reg, sizeof(Alumno),1,pAlu);
+    fclose(pAlu);
+    return modifico;
 }
 
 int main(){

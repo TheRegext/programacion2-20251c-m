@@ -1,0 +1,47 @@
+Variables conocidas pasamos a trabajar con estructuras de datos complejas: vectores, matrices, registros. Vimos punteros
+
+Al declarar vectores, se indica la cantidad de componentes que necesitamos
+	int v[10]-> vector de enteros de 10 posiciones.
+	pero al usarlo vamos desde v[0] hasta v[9]
+
+	v[2], v[x], v[reg.getAnio()-1900]	
+
+El nombre de un vector es un puntero constante que contiene la dirección de inicio de ese vector (&v[0]==v)
+
+Los vectores pueden ser todos los tipos de datos integrados, o de los tipos de datos creados por nosotros
+
+Asignación dinámica de memoria: mecanismo que nos permite crear vectores/matrices sin necesidad de saber en tiempo de diseño su tamaño.
+
+puntero del tipo requerido=new tipo[cant]	p.e. int *p; p=new int[10]
+Luego se chequea si se pudo conseguir la memoria
+	if(p==nullptr)-> no se pudo asignar 
+Si pasa el chequeo se usa como un vector estático.
+
+Al finalizar hay que devolver la memoria pedida con delete
+delete []p
+
+Para representar cosas más complejas que listas de números, necesitamos registros. En c++ se implementa mediante CLASES
+
+Clase: molde donde se definen las propiedades y el comportamiento que tendrán los objetos de esa clase.
+Objetos: variable o instancia de una clase.Simples o compuestas. Punteros
+
+Propiedades (variables de la clase)
+Comportamiento (métodos que son las funciones de la clase)
+
+Encapsulamiento: lo que está definido en la parte privada (propiedades) de una clase sólo es accesible de manera directa dentro de la clase.
+
+Para acceder fuera de la clase se deben usar métodos definidos dentro de la clase (sets para asignar valor y gets para sacar el valor).
+
+Constructores: método que tiene el mismo nombre de la clase, no devuelve nada, puede recibir parámetros y se ejecuta de manera automática cuando el objeto nace. Lo usamos para crear los objetos (dinámicos->new) o para darle valores iniciales.
+
+Destructor: método que tiene el mismo nombre de la clase antecedido por el caracter ~. No devuelve nada, no recibe nada y se ejecuta cuando el objeto muere. Para el caso de objetos dinámicos->delete
+
+Herencia-> permite crear nuevas clases a partir de clases existentes.
+Composición-> permite usar objetos de una clase como propiedad de otra (Persona tiene fecha de nacimiento)
+
+Sobrecarga de operadores: que nos permite agregar funcionalidad a los operadores del lenguaje. Para eso se agrega código dentro de cada clase.
+
+Archivos
+Funciones FILE *p, fopen(), fclose(), fread(), fwrite(). fseek(), ftell()
+ABML
+Reportes: sacar info de los archivos existentes.
