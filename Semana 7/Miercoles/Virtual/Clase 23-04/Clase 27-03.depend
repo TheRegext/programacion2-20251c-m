@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1743690015 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 27-03\main.cpp
+	<iostream>
+	<cstring>
+	"clsContador.h"
+
+1743689731 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 27-03\clscontador.cpp
+	<iostream>
+	"clsContador.h"
+
+1743690065 c:\users\maxi_\desktop\proyectos programacion 2\clase 27-03\clscontador.h
+
+1743689731 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\clscontador.cpp
+	<iostream>
+	"clsContador.h"
+
+1743690065 c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\clscontador.h
+
+1744202668 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\clsmateria.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"funciones.h"
+
+1744202513 c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\clsmateria.h
+
+1744202654 c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\funciones.h
+
+1744202690 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\main.cpp
+	<iostream>
+	<cstring>
+	"clsContador.h"
+	"clsMateria.h"
+	"funciones.h"
+
+1744202654 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 03-04\funciones.cpp
+	<iostream>
+
+1743689731 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clscontador.cpp
+	<iostream>
+	"clsContador.h"
+
+1743690065 c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clscontador.h
+
+1744286168 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsmateria.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744202513 c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsmateria.h
+
+1744287275 c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\funciones.h
+
+1744292903 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\main.cpp
+	<iostream>
+	<cstring>
+	"clsContador.h"
+	"clsAlumno.h"
+	"clsMateria.h"
+	"funciones.h"
+
+1744289303 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\funciones.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744286007 c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsalumno.h
+
+1744286168 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744292958 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsarchivomaterias.cpp
+	<iostream>
+	"clsArchivoMaterias.h"
+	"clsMateria.h"
+
+1744292903 c:\users\maxi_\desktop\proyectos programacion 2\clase 09-04\clsarchivomaterias.h
+	"clsMateria.h"
+
+1744812752 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744812622 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsmateria.h
+
+1744812622 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsalumno.h
+
+1744814335 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\funciones.h
+
+1743689731 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clscontador.cpp
+	<iostream>
+	"clsContador.h"
+
+1743690065 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clscontador.h
+
+1744813567 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsmateria.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744813274 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\funciones.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"clsArchivoMaterias.h"
+	"clsArchivoAlumnos.h"
+	"funciones.h"
+
+1744293094 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\main.cpp
+	<iostream>
+	<cstring>
+	"clsContador.h"
+	"clsAlumno.h"
+	"clsMateria.h"
+	"funciones.h"
+
+1744814335 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsarchivomaterias.h
+	"clsMateria.h"
+
+1744814335 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsarchivomaterias.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoMaterias.h"
+	"clsMateria.h"
+
+1744805952 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsarchivoalumnos.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoAlumnos.h"
+	"clsAlumno.h"
+
+1744805952 c:\users\maxi_\desktop\proyectos programacion 2\clase 10-04\clsarchivoalumnos.h
+	"clsAlumno.h"
+
+1744805952 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsarchivoalumnos.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoAlumnos.h"
+	"clsAlumno.h"
+
+1744805952 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsarchivoalumnos.h
+	"clsAlumno.h"
+
+1745409759 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsalumno.h
+	"clsFecha.h"
+
+1744814335 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsarchivomaterias.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoMaterias.h"
+	"clsMateria.h"
+
+1744814335 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsarchivomaterias.h
+	"clsMateria.h"
+
+1744812622 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsmateria.h
+
+1743689731 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clscontador.cpp
+	<iostream>
+	"clsContador.h"
+
+1743690065 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clscontador.h
+
+1744813567 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsmateria.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1744814335 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\funciones.h
+
+1744815703 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\funciones.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"clsArchivoMaterias.h"
+	"clsArchivoAlumnos.h"
+	"funciones.h"
+
+1745409062 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\main.cpp
+	<iostream>
+	<cstring>
+	"clsContador.h"
+	"clsAlumno.h"
+	"clsMateria.h"
+	"funciones.h"
+
+1745409759 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsMateria.h"
+	"clsAlumno.h"
+	"funciones.h"
+
+1745409062 c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsfecha.h
+
+1745409062 source:c:\users\maxi_\desktop\proyectos programacion 2\clase 16-04\clsfecha.cpp
+	<iostream>
+	"clsFecha.h"
+
